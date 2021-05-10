@@ -51,7 +51,7 @@ def contact(request):
             message_name,
             message,
             message_email,
-            ['deinmoway@gmail.com'],
+            ['deinmodeiwaterway@gmail.com'],
         )
         return render(request, 'contact.html', {'message_name': message_name})
     else:
@@ -87,7 +87,7 @@ def appointment(request):
             'Appointment Request',  # subject
             appoint,  # message
             your_email,  # from
-            ['deinmoway@gmail.com'],    # To Email
+            ['deinmodeiwaterway@gmail.com'],    # To Email
         )
 
         return render(request, 'appointment.html', {
